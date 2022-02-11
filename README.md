@@ -10,9 +10,8 @@ import "github.com/ubiant/ipfrommac"
 ```
 With the getIpFromMac command:
 ```bash
-git clone https://github.com/ubiant/ipfrommac.git
-cd ipfrommac
-go build ./cmd/getIpFromMac
+go get github.com/ubiant/ipfrommac
+go build github.com/ubiant/ipfrommac/cmd/getIpFromMac
 ```
 
 ## Usage
